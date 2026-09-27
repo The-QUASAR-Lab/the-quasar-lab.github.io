@@ -36,13 +36,14 @@ Paste the BibTeX entry into `_bibliography/papers.bib` and add any of these fiel
 
 ## Preview locally
 
-With Docker installed:
+Optional. Install Ruby 3.x (for example `brew install ruby`), then:
 
 ```bash
-docker compose up
+bundle install
+bundle exec jekyll serve
 ```
 
-Then open http://localhost:8080.
+Then open http://localhost:4000. Without a local preview, just push to `main` and check the live site after the deploy finishes (about 2 minutes).
 
 ## Deployment
 

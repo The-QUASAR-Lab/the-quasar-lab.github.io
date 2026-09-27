@@ -20,3 +20,10 @@ vendor
 __pycache__/
 *.pyc
 .preview/
+
+# Local Docker preview files (not part of the site)
+Dockerfile
+docker-compose.yml
+docker-compose-slim.yml
+.dockerignore
+bin/entry_point.sh
