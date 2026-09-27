@@ -1,0 +1,5 @@
+# Lab-wide social links (shown on pages that enable `social: true`).
+# See the jekyll-socials plugin for supported keys, e.g.:
+# email: quasar@colorado.edu
+# github_username: The-QUASAR-Lab
+github_username: The-QUASAR-Lab

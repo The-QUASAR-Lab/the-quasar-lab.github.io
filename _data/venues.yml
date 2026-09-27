@@ -1,0 +1,5 @@
+# Colors and links for the venue badges (the `abbr` field in papers.bib). Example:
+# "ASPLOS":
+#   url: https://www.asplos-conference.org/
+#   color: "#00369f"
+{}

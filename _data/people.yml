@@ -1,0 +1,65 @@
+# Lab members shown on the People page (_pages/people.md).
+#
+# To add or edit a member, change the entries below. Fields:
+#   name     - full name (required)
+#   role     - title shown under the name, e.g. "PhD Student"
+#   image    - photo file in assets/img/people/ (square, at least 400x400). Leave blank to show a placeholder.
+#   bio      - a few sentences; Markdown links work
+#   email, website - optional (full address / full URL)
+#   scholar  - optional Google Scholar user ID (the part after 'user=' in the profile URL)
+#   github, linkedin - optional usernames
+#
+# TODO: fill in role details, photos, bios and links from the members spreadsheet.
+
+groups:
+  - title: Principal Investigator
+    members:
+      - name: Ramin Ayanzadeh
+        role: Lab Director
+        image:
+        bio: Dr. Ayanzadeh leads the QUASAR Lab.
+        email:
+        website:
+        scholar:
+
+  - title: PhD Students
+    members:
+      - name: Nicholas Papadopoulos
+        role: PhD Student
+        image:
+        bio:
+      - name: Shiprah Singh
+        role: PhD Student
+        image:
+        bio:
+      - name: Tanner Smith
+        role: PhD Student
+        image:
+        bio:
+      - name: Alex Jaimes Sandoval
+        role: PhD Student
+        image:
+        bio:
+      - name: Collin Frink
+        role: PhD Student
+        image:
+        bio:
+      - name: Kyle Henasey
+        role: PhD Student
+        image:
+        bio:
+      - name: Seemanta Bhattacharjhee
+        role: PhD Student
+        image:
+        bio:
+
+  - title: Master's Students
+    members:
+      - name: Kanishka Jayathilake
+        role: MS Student
+        image:
+        bio:
+      - name: Cordelia Brumley
+        role: MS Student
+        image:
+        bio:
