@@ -7,11 +7,11 @@ first_name: QUASAR
 middle_name:
 last_name: Lab
 contact_note: >
-  Department of Computer Science, University of Colorado Boulder.
+  Computer Systems Lab, Department of Computer Science, 1111 Engineering Dr, Boulder, CO 80309.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The Quantum Architecture, Systems, and Applications Research (QUASAR) Lab at CU Boulder studies quantum computation from a systems and architecture perspective.
 footer_text: >
-  QUASAR Lab, Department of Computer Science, University of Colorado Boulder.
+  Computer Systems Lab, Department of Computer Science · 1111 Engineering Dr, Boulder, CO 80309.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: quantum computing, quantum architecture, quantum systems, computer architecture, CU Boulder, QUASAR Lab
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

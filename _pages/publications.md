@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Publications by QUASAR Lab members, most recent first.
 nav: true
 nav_order: 2

@@ -1,8 +1,8 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
-subtitle: Quantum Architecture, Systems, and Applications Research · Department of Computer Science · University of Colorado Boulder
+subtitle: Quantum Architecture, Systems, and Applications Research (QUASAR) · Department of Computer Science · University of Colorado Boulder
 
 # TODO: add the group photo as assets/img/group_photo.jpg, then uncomment the profile block below.
 # profile:
@@ -27,3 +27,12 @@ Welcome to the QUASAR Lab homepage!
 We are the Quantum Architecture, Systems, and Applications Research (QUASAR) Lab in the Department of Computer Science at CU Boulder, led by [Dr. Ramin Ayanzadeh]({{ '/people/' | relative_url }}). We study quantum computation from a systems and architecture perspective. Our research sits at the intersection of quantum computation and computer architecture, bridging the gap between quantum hardware and software to build and optimize the next generation of quantum platforms.
 
 Take a look at our [publications]({{ '/publications/' | relative_url }}) or get to know [the people in our lab]({{ '/people/' | relative_url }}).
+
+#### Address
+
+Computer Systems Lab<br>
+Department of Computer Science<br>
+1111 Engineering Dr, Boulder, CO 80309
+
+<!-- the theme writes the news heading in lowercase; capitalize it to match the navigation -->
+<style>.post article > h2 { text-transform: capitalize; }</style>
