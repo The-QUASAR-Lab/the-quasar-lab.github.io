@@ -4,12 +4,6 @@ title: Home
 permalink: /
 subtitle: Quantum Architecture, Systems, and Applications Research (QUASAR) · Department of Computer Science · University of Colorado Boulder
 
-# TODO: add the group photo as assets/img/group_photo.jpg, then uncomment the profile block below.
-# profile:
-#   align: right
-#   image: group_photo.jpg
-#   image_circular: false
-
 selected_papers: false
 social: false
 
@@ -21,6 +15,8 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/group_photo.jpg' | relative_url }}" alt="QUASAR Lab members on a rooftop at CU Boulder with the Flatirons in the background" style="width: 100%; margin-bottom: 1.5rem;">
 
 Welcome to the QUASAR Lab homepage!
 
