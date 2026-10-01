@@ -2,7 +2,6 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Quantum Architecture, Systems, and Applications Research (QUASAR) · Department of Computer Science · University of Colorado Boulder
 
 selected_papers: false
 social: false
@@ -31,4 +30,23 @@ Department of Computer Science<br>
 1111 Engineering Dr, Boulder, CO 80309
 
 <!-- the theme writes the news heading in lowercase; capitalize it to match the navigation -->
-<style>.post article > h2 { text-transform: capitalize; }</style>
+<style>
+  .cu-site-header header.ucb .site-name { font-size: 2.25rem; }
+  @layer components {
+    [role="main"].mt-5 { margin-top: 2rem !important; }
+  }
+  .post article > h2 { text-transform: capitalize; }
+  /* The shared header already displays the lab name. Keep the main heading
+     available to screen readers without repeating it visually. */
+  .post > .post-header > .post-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
