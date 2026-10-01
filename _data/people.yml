@@ -12,14 +12,14 @@
 #   scholar  - optional Google Scholar user ID (the part after 'user=' in the profile URL)
 #   github, linkedin - optional usernames
 #
-# TODO: add Dr. Ayanzadeh's photo and details. Kyle's photo is low resolution (128x128); replace if a larger one is available.
+# TODO: add Dr. Ayanzadeh's details. Kyle's photo is low resolution (128x128); replace if a larger one is available.
 
 groups:
   - title: Principal Investigator
     members:
       - name: Ramin Ayanzadeh
         role: Assistant Professor & Lab Director
-        image:
+        image: ramin-ayanzadeh.jpg
         bio: Dr. Ayanzadeh leads the QUASAR Lab.
 
   - title: PhD Students

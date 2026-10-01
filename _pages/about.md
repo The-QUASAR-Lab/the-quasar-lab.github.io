@@ -16,7 +16,10 @@ latest_posts:
   enabled: false
 ---
 
-<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/group_photo.jpg' | relative_url }}" alt="QUASAR Lab members on a rooftop at CU Boulder with the Flatirons in the background" style="width: 100%; margin-bottom: 1.5rem;">
+<figure style="margin-bottom: 1.5rem;">
+  <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/group_photo.jpg' | relative_url }}" alt="QUASAR Lab members on a rooftop at CU Boulder with the Flatirons in the background" style="width: 100%;">
+  <figcaption class="caption">Left to right: Ramin, Alex, Seemanta, Nick, Collin, Cordelia, Kyle, Shipra, Tanner, and Kanishka</figcaption>
+</figure>
 
 Welcome to the QUASAR Lab homepage!
 
