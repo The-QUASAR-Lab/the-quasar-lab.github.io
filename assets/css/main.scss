@@ -36,3 +36,20 @@
 @use "typograms";
 @use "cu-header";
 @use "cu-footer";
+
+// Keep secondary text readable without changing the CU branding components.
+[role="main"] {
+  --global-text-color-light: #757575;
+
+  .publications h2.bibliography {
+    color: var(--global-text-color-light);
+  }
+
+  p a {
+    text-decoration: underline;
+  }
+}
+
+html[data-theme="dark"] [role="main"] {
+  --global-text-color-light: #919191;
+}
