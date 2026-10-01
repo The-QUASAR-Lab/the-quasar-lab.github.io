@@ -53,3 +53,24 @@
 html[data-theme="dark"] [role="main"] {
   --global-text-color-light: #919191;
 }
+
+.publications .links a.btn:focus-visible {
+  outline: 2px solid var(--global-text-color);
+  outline-offset: 3px;
+}
+
+ninja-keys {
+  --ninja-group-text-color: #656565;
+  --ninja-secondary-text-color: #656565;
+}
+
+ninja-keys.dark {
+  --ninja-text-color: #b0b0b0;
+  --ninja-group-text-color: #b0b0b0;
+  --ninja-secondary-text-color: #b0b0b0;
+}
+
+ninja-keys::part(actions-list):focus-visible {
+  outline: 2px solid var(--global-text-color);
+  outline-offset: -2px;
+}
