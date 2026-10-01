@@ -1,9 +1,14 @@
-<div class="cu-site-header" role="banner">
+<div class="cu-site-header{% if page.permalink == '/' %} cu-site-header-home{% endif %}" role="banner">
   <nav id="navbar" class="cu-campus-bar navbar navbar-light navbar-expand-sm" aria-label="Main navigation">
     <div class="container">
-      <a class="navbar-brand" href="https://www.colorado.edu/">
-        <img class="ucb-logo" src="https://cdn.colorado.edu/static/brand-assets/live/images/cu-boulder-logo-text-white.svg" alt="University of Colorado Boulder" width="240" height="22">
-      </a>
+      <div class="cu-campus-identity">
+        <a href="https://www.colorado.edu/">
+          <img class="ucb-logo" src="https://cdn.colorado.edu/static/brand-assets/live/images/cu-boulder-logo-text-white.svg" alt="University of Colorado Boulder" width="240" height="22">
+        </a>
+        <div class="affiliation">
+          <a href="https://www.colorado.edu/engineering">College of Engineering and Applied Science</a>
+        </div>
+      </div>
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed navbar-toggler-main"
@@ -118,12 +123,9 @@
       </div>
     </div>
   </nav>
-  <header class="ucb white" role="presentation">
+  <header class="ucb black" role="presentation">
     <div class="container">
       <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <div class="affiliation">
-        <a href="https://www.colorado.edu/engineering">College of Engineering and Applied Science</a>
-      </div>
     </div>
   </header>
 </div>

@@ -3,11 +3,13 @@
 // Scope CU's unchanged reference stylesheet to the shared header.
 .cu-site-header {
   @include meta.load-css("../assets/brand/cu-boulder/css/branding");
+  border-bottom: 1px solid var(--global-divider-color);
 
   #navbar {
     position: static;
     opacity: 1;
     background: #000;
+    border-bottom: 0;
     padding: 10px 0;
 
     > .container { padding: 0 15px; }
@@ -15,12 +17,24 @@
     #light-toggle-system::before, #light-toggle-system::after { color: inherit; }
     .nav-item.active > .nav-link, .nav-link:hover { color: #cfb87c; }
     .icon-bar { background: #fff; }
+    .affiliation {
+      font-size: 0.75rem;
+      font-weight: 400;
+      line-height: 1.4;
+      a { color: #aaa; }
+    }
 
     a:focus-visible, button:focus-visible {
       outline: 2px solid #fff;
       outline-offset: 3px;
     }
 
+  }
+
+  .cu-campus-identity {
+    width: max-content;
+    flex-shrink: 0;
+    > a { display: block; }
   }
 
   .ucb-logo {
@@ -31,26 +45,32 @@
 
   header.ucb {
     font-family: inherit;
+    font-size: 1.25rem;
+    padding: 0 0 10px;
     > .container { width: 100%; }
-    .affiliation { font-size: 0.75rem; font-weight: 400; line-height: 1.4; }
-    a:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
+    a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
   }
 
   header.ucb .site-name {
     font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
   }
 
   @media (max-width: 767.98px) {
-    .ucb-logo { width: 200px; }
+    .cu-campus-identity, .ucb-logo { width: 200px; }
   }
+
+  &:not(.cu-site-header-home) #navbar { padding-bottom: 4px; }
 }
 
-html[data-theme="dark"] .cu-site-header header.ucb {
-  background: #000;
-  color: #fff;
-  .site-name { color: #fff; }
-  &.white .affiliation a:link, &.white .affiliation a:visited { color: #aaa; }
-  a:focus-visible { outline-color: #fff; }
+.cu-site-header-home {
+  border-bottom: 0;
+  #navbar { border-bottom: 1px solid var(--global-divider-color); }
+  header.ucb {
+    background: var(--global-bg-color);
+    padding: 15px 0;
+    .site-name:link, .site-name:visited { color: var(--global-text-color); }
+    a:focus-visible { outline-color: var(--global-text-color); }
+  }
 }
