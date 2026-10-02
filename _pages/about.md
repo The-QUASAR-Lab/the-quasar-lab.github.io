@@ -34,7 +34,6 @@ Department of Computer Science<br>
 
 <!-- the theme writes the news heading in lowercase; capitalize it to match the navigation -->
 <style>
-  .cu-site-header header.ucb .site-name { font-size: 2.25rem; }
   @layer components {
     [role="main"].mt-5 { margin-top: 2rem !important; }
   }

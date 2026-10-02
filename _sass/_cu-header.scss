@@ -8,24 +8,18 @@
   #navbar {
     position: static;
     opacity: 1;
-    background: #000;
+    background: #fff;
     border-bottom: 0;
     padding: 10px 0;
 
     > .container { padding: 0 15px; }
-    .nav-link, #light-toggle { color: #fff; }
+    .nav-link, #light-toggle { color: #111; }
     #light-toggle-system::before, #light-toggle-system::after { color: inherit; }
-    .nav-item.active > .nav-link, .nav-link:hover { color: #cfb87c; }
-    .icon-bar { background: #fff; }
-    .affiliation {
-      font-size: 0.75rem;
-      font-weight: 400;
-      line-height: 1.4;
-      a { color: #aaa; }
-    }
+    .nav-item.active > .nav-link, .nav-link:hover { color: #0062c4; }
+    .icon-bar { background: #111; }
 
     a:focus-visible, button:focus-visible {
-      outline: 2px solid #fff;
+      outline: 2px solid #111;
       outline-offset: 3px;
     }
 
@@ -44,33 +38,16 @@
   }
 
   header.ucb {
-    font-family: inherit;
-    font-size: 1.25rem;
-    padding: 0 0 10px;
+    font-weight: 700;
     > .container { width: 100%; }
     a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
   }
 
   header.ucb .site-name {
-    font-family: inherit;
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 700;
   }
 
   @media (max-width: 767.98px) {
     .cu-campus-identity, .ucb-logo { width: 200px; }
-  }
-
-  &:not(.cu-site-header-home) #navbar { padding-bottom: 4px; }
-}
-
-.cu-site-header-home {
-  border-bottom: 0;
-  #navbar { border-bottom: 1px solid var(--global-divider-color); }
-  header.ucb {
-    background: var(--global-bg-color);
-    padding: 15px 0;
-    .site-name:link, .site-name:visited { color: var(--global-text-color); }
-    a:focus-visible { outline-color: var(--global-text-color); }
   }
 }
