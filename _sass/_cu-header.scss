@@ -5,21 +5,27 @@
   @include meta.load-css("../assets/brand/cu-boulder/css/branding");
   border-bottom: 1px solid var(--global-divider-color);
 
+  .cu-campus-bar {
+    background: #fff;
+    padding: 10px 0;
+    a:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
+  }
+
   #navbar {
     position: static;
     opacity: 1;
-    background: #fff;
+    background: #000;
     border-bottom: 0;
-    padding: 10px 0;
+    padding: 0;
 
     > .container { padding: 0 15px; }
-    .nav-link, #light-toggle { color: #111; }
+    .nav-link, #light-toggle { color: #fff; }
     #light-toggle-system::before, #light-toggle-system::after { color: inherit; }
-    .nav-item.active > .nav-link, .nav-link:hover { color: #0062c4; }
-    .icon-bar { background: #111; }
+    .nav-item.active > .nav-link, .nav-link:hover { color: #cfb87c; }
+    .icon-bar { background: #fff; }
 
     a:focus-visible, button:focus-visible {
-      outline: 2px solid #111;
+      outline: 2px solid #fff;
       outline-offset: 3px;
     }
 
@@ -39,7 +45,6 @@
 
   header.ucb {
     font-weight: 700;
-    > .container { width: 100%; }
     a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
   }
 
